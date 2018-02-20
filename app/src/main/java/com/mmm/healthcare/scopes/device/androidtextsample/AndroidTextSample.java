@@ -222,7 +222,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                  */
                 stethoscope.startAudioInput();
                 stethoscope.startAudioOutput();
-                recordFlag = true;
+//                recordFlag = true;
+                recordFlag =!recordFlag;
 
                 try {
                     while(recordFlag){
@@ -234,6 +235,9 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                             continue;
                         }
                         stethoscope.getAudioOutputStream().write(buffer);
+                    }
+                    if(!recordFlag){
+                        stethoscope.stopAudioInputAndOutput();
                     }
 
                 } catch (IOException e) {
@@ -280,8 +284,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
             public void mButtonUp() {
                 writeToConsole("");
                 writeToConsole("The m button has been released.");
-                recordFlag=false;
-                stethoscope.stopAudioInputAndOutput();
+//                recordFlag=false;
+//                stethoscope.stopAudioInputAndOutput();
             }
 
             @Override
