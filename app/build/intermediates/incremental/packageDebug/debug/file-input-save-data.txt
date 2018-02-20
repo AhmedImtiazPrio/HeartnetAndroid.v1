@@ -1,35 +1,15 @@
 #Internal package file, do not edit.
-#Tue Feb 20 13:31:30 BDT 2018
-7.path=classes.dex
-2.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/assets/debug
-5.set=DEX
-0.path=license.xml
-2.baseType=DIRECTORY
-3.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/15
-7.baseType=DIRECTORY
-2.set=ASSET
-1.path=classes.dex
-4.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/16
-7.set=DEX
-count=8
-5.baseType=DIRECTORY
+#Tue Feb 20 14:35:47 BDT 2018
+1.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/19
 2.path=sample.bmp
-5.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/13
-4.set=DEX
-3.path=classes.dex
-6.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/14
-3.baseType=DIRECTORY
-1.set=DEX
-4.path=classes.dex
-7.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/12
-6.set=DEX
-1.baseType=DIRECTORY
-6.baseType=DIRECTORY
-5.path=classes.dex
-0.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/assets/debug
 0.baseType=DIRECTORY
-3.set=DEX
-6.path=classes.dex
-1.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/17
-4.baseType=DIRECTORY
+2.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/assets/debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=license.xml
 0.set=ASSET
+0.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=classes.dex

@@ -216,6 +216,27 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 writeToConsole("The m button has been clicked.");
                 writeToConsole("The m button click was "
                         + (isLongButtonClick ? "long" : "short") + ".");
+
+                stethoscope.startAudioInput();
+                stethoscope.startAudioOutput();
+
+                try {
+                    while(true){
+                        byte[] buffer = new byte[128];
+                        int bytesreadcount = stethoscope.getAudioInputStream().read(buffer,0,buffer.length);
+                        if (bytesreadcount<=0){
+                            Thread.sleep(100);
+                            continue;
+                        }
+                        stethoscope.getAudioOutputStream().write(buffer);
+                    }
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
             }
 
             @Override
@@ -254,6 +275,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
             public void mButtonUp() {
                 writeToConsole("");
                 writeToConsole("The m button has been released.");
+                stethoscope.stopAudioInputAndOutput();
             }
 
             @Override
