@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,5,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "121,178,222,55",
+                        "endColumns": "56,43,57,65",
+                        "endOffsets": "173,217,275,116"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,252,296,354",
+                        "endColumns": "56,43,57,65",
+                        "endOffsets": "247,291,349,415"
+                    }
+                },
+                {
+                    "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3,4,2",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "101,146,54",
+                        "endColumns": "43,40,45",
+                        "endOffsets": "143,185,98"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,102,146",
+                        "endColumns": "46,43,48",
+                        "endOffsets": "97,141,190"
+                    }
+                }
+            ]
+        }
+    ]
+}

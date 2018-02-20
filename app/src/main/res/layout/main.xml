@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/////////////////////////////////////////////////////////////////////////////////////////////
+// THIS IS AN UNPUBLISHED WORK CONTAINING 3M CONFIDENTIAL AND PROPRIETARY INFORMATION.     //
+// DISCLOSURE, USE OR REPRODUCTION WITHOUT THE WRITTEN AUTHORIZATION OF 3M IS PROHIBITED.  //
+// IF PUBLICATION OCCURS, THE FOLLOWING NOTICE APPLIES:                                    //
+//                                                                                         //
+// Copyright (c) 2011, 3M. All rights reserved.                                            //
+/////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ -->
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    >
+    
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	>
+    	<Spinner
+    		android:id="@+id/stethoscope_spinner"
+    		android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		/>
+	
+		<Button
+			android:id="@+id/connect_disconnect_button"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/connect"
+		     
+		    /> 
+		    
+		<TextView
+			android:id="@+id/console_label_view"
+			android:text="@string/console_label"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:textSize="30dip"
+		    />
+		    
+	    <TextView
+	    	android:id="@+id/console_view"
+	    	android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+	    	android:scrollbars="vertical"
+	    	android:minLines="20"
+	    	android:maxLines="20"
+	    	android:scrollbarAlwaysDrawVerticalTrack="true"
+	    	android:background="@color/console"
+	    	android:bufferType="editable"
+	    	>
+	    </TextView>
+    </LinearLayout>
+</LinearLayout>

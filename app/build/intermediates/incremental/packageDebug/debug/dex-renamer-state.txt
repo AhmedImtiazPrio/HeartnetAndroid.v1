@@ -1,0 +1,19 @@
+#Tue Feb 20 13:31:30 BDT 2018
+path.1=classes.dex
+path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/15
+base.4=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/16
+base.3=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/13
+base.2=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/14
+base.1=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/12
+base.0=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/17
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex

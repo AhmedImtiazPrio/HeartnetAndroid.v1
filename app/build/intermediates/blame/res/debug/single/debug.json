@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/res/merged/debug/layout_stethoscope_list.xml.flat",
+        "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/layout/stethoscope_list.xml"
+    },
+    {
+        "merged": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/res/layout/main.xml"
+    }
+]

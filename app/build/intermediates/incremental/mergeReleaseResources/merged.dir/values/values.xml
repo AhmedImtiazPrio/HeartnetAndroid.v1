@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#ff000000</color>
+    <color name="console">#ff202020</color>
+    <color name="spinner_text">#ff000000</color>
+    <string name="app_name">Android Text Sample</string>
+    <string name="connect">Connect</string>
+    <string name="console_label">Console Output:</string>
+    <string name="hello">Hello World, AndroidTextSample!</string>
+</resources>
