@@ -39,7 +39,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
     private long maximum_recording_length = 20000; // Maximum recording length 20000 milliseconds
     private long recordstart;
     private boolean isConnected = false;
-
+    int total;
     private TextView consoleView;
     private Button connectDisconnectButton;
     private Spinner stethoscopeSelector;
@@ -238,6 +238,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 recordFlag =!recordFlag;
                 if (recordFlag){
                     recordstart = SystemClock.elapsedRealtime();
+                    total =0; // Initialized total number of bytes for incoming session to zero
                 }
 
                 try {
@@ -247,20 +248,24 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                         long currenttime = SystemClock.elapsedRealtime();
 
                         writeToConsole("Bytes read:"+Integer.toString(bytesreadcount));
+
                         if (bytesreadcount<=0){
                             Thread.sleep(100);
                             continue;
                         }
                         stethoscope.getAudioOutputStream().write(buffer);
+                        total = total +bytesreadcount; // Count total number of incoming bytes
                         if (currenttime-recordstart>=maximum_recording_length){
                             stethoscope.stopAudioInputAndOutput();
-                            writeToConsole("Recording performed for 20 seconds");
+                            writeToConsole("Recording performed for 20 seconds, Size: "
+                                    +Integer.toString(total)+" bytes");
                             break;
                         }
 
                     }
                     if(!recordFlag){
                         stethoscope.stopAudioInputAndOutput();
+//                        writeToConsole("Recording performed for "+(SystemClock.elapsedRealtime()-recordstart)/1000);
                     }
 
                 } catch (IOException e) {
