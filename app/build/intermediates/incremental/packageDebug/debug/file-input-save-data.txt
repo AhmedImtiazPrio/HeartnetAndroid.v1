@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 20 14:35:47 BDT 2018
+#Tue Feb 20 15:52:55 BDT 2018
 1.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/19
 2.path=sample.bmp
 0.baseType=DIRECTORY

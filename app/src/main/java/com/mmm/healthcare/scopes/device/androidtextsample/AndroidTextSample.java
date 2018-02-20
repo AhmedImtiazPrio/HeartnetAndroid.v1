@@ -31,6 +31,7 @@ import com.mmm.healthcare.scope.Stethoscope;
 public class AndroidTextSample extends Activity implements OnClickListener {
 
     private Stethoscope stethoscope;
+    private boolean recordFlag = false;
     private boolean isConnected = false;
 
     private TextView consoleView;
@@ -216,14 +217,18 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 writeToConsole("The m button has been clicked.");
                 writeToConsole("The m button click was "
                         + (isLongButtonClick ? "long" : "short") + ".");
-
+                /** Open an input stream, send the input buffer to the outputstream
+                 *  recordFlag controls the while loop
+                 */
                 stethoscope.startAudioInput();
                 stethoscope.startAudioOutput();
+                recordFlag = true;
 
                 try {
-                    while(true){
+                    while(recordFlag){
                         byte[] buffer = new byte[128];
                         int bytesreadcount = stethoscope.getAudioInputStream().read(buffer,0,buffer.length);
+                        writeToConsole("Bytes read:"+Integer.toString(bytesreadcount));
                         if (bytesreadcount<=0){
                             Thread.sleep(100);
                             continue;
@@ -275,6 +280,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
             public void mButtonUp() {
                 writeToConsole("");
                 writeToConsole("The m button has been released.");
+                recordFlag=false;
                 stethoscope.stopAudioInputAndOutput();
             }
 
