@@ -11,8 +11,11 @@ import java.io.IOException;
 import java.util.Vector;
 
 import android.app.Activity;
+import android.media.AudioFormat;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.os.SystemClock;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -31,7 +34,10 @@ import com.mmm.healthcare.scope.Stethoscope;
 public class AndroidTextSample extends Activity implements OnClickListener {
 
     private Stethoscope stethoscope;
-    private boolean recordFlag = false;
+    private boolean recordFlag = false; // Flag that controls recording with the press of M button
+    private static String audioFilePath; // audioFilePath for saving .wav file
+    private long maximum_recording_length = 20000; // Maximum recording length 20000 milliseconds
+    private long recordstart;
     private boolean isConnected = false;
 
     private TextView consoleView;
@@ -50,6 +56,9 @@ public class AndroidTextSample extends Activity implements OnClickListener {
 
         // Register the activity to allow license check.
         ConfigurationFactory.setContext(this);
+
+        // Register audiofilepath
+        audioFilePath= Environment.getExternalStorageDirectory().getAbsolutePath();
 
         consoleView = (TextView) findViewById(R.id.console_view);
         consoleView.setMovementMethod(new ScrollingMovementMethod());
@@ -220,21 +229,35 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 /** Open an input stream, send the input buffer to the outputstream
                  *  recordFlag controls the while loop
                  */
+                String audioFileName =audioFilePath+"/temp.wav";
+                writeToConsole("Save file: "+audioFileName);
                 stethoscope.startAudioInput();
                 stethoscope.startAudioOutput();
+
 //                recordFlag = true;
                 recordFlag =!recordFlag;
+                if (recordFlag){
+                    recordstart = SystemClock.elapsedRealtime();
+                }
 
                 try {
                     while(recordFlag){
                         byte[] buffer = new byte[128];
                         int bytesreadcount = stethoscope.getAudioInputStream().read(buffer,0,buffer.length);
+                        long currenttime = SystemClock.elapsedRealtime();
+
                         writeToConsole("Bytes read:"+Integer.toString(bytesreadcount));
                         if (bytesreadcount<=0){
                             Thread.sleep(100);
                             continue;
                         }
                         stethoscope.getAudioOutputStream().write(buffer);
+                        if (currenttime-recordstart>=maximum_recording_length){
+                            stethoscope.stopAudioInputAndOutput();
+                            writeToConsole("Recording performed for 20 seconds");
+                            break;
+                        }
+
                     }
                     if(!recordFlag){
                         stethoscope.stopAudioInputAndOutput();
