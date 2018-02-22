@@ -7,25 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="018c4e27-2cb9-48bc-a97c-757f11613777" name="Default" comment="added code block to record take an audio input stream insude method mButtonDown.&#10;added block in mButtonUp to close audio input and output streams.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$ConsoleWriter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$ConsoleWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$ConsoleWriter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$ConsoleWriter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -54,12 +35,12 @@
       <file leaf-file-name="AndroidTextSample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="257" column="78" lean-forward="false" selection-start-line="257" selection-start-column="78" selection-end-line="257" selection-end-column="78" />
+            <state relative-caret-position="365">
+              <caret line="228" column="82" lean-forward="true" selection-start-line="228" selection-start-column="82" selection-end-line="228" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#15335#15336#0" expanded="true" />
-                <element signature="e#15390#15391#0" expanded="true" />
+                <element signature="e#15334#15335#0" expanded="true" />
+                <element signature="e#15389#15390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2067,7 +2048,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519128495829" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519277675564" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2115,7 +2096,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519128495829" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519277675564" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2298,7 +2279,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519128495831" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519277675567" />
       </method>
     </configuration>
     <list size="1">
@@ -2490,12 +2471,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="257" column="78" lean-forward="false" selection-start-line="257" selection-start-column="78" selection-end-line="257" selection-end-column="78" />
+        <state relative-caret-position="365">
+          <caret line="228" column="82" lean-forward="true" selection-start-line="228" selection-start-column="82" selection-end-line="228" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15335#15336#0" expanded="true" />
-            <element signature="e#15390#15391#0" expanded="true" />
+            <element signature="e#15334#15335#0" expanded="true" />
+            <element signature="e#15389#15390#0" expanded="true" />
           </folding>
         </state>
       </provider>

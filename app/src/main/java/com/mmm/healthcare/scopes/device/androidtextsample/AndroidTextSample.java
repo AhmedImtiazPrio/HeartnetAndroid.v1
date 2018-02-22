@@ -226,7 +226,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 writeToConsole("The m button has been clicked.");
                 writeToConsole("The m button click was "
                         + (isLongButtonClick ? "long" : "short") + ".");
-                /** Open an input stream, send the input buffer to the outputstream
+                /* Open an input stream, send the input buffer to the outputstream
                  *  recordFlag controls the while loop
                  */
                 String audioFileName =audioFilePath+"/temp.wav";
