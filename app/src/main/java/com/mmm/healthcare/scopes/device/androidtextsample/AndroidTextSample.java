@@ -33,13 +33,17 @@ import com.mmm.healthcare.scope.Stethoscope;
 
 public class AndroidTextSample extends Activity implements OnClickListener {
 
+
     private Stethoscope stethoscope;
     private boolean recordFlag = false; // Flag that controls recording with the press of M button
     private static String audioFilePath; // audioFilePath for saving .wav file
-    private long maximum_recording_length = 20000; // Maximum recording length 20000 milliseconds
-    private long recordstart;
+    private int maximum_recording_length = 20; // Maximum recording length 20 seconds
     private boolean isConnected = false;
+    long recordstart;
     int total;
+    byte[] heartsounddata = new byte [maximum_recording_length*16*4000];
+    byte[] buffer = new byte[128];
+    int offset = 0;
     private TextView consoleView;
     private Button connectDisconnectButton;
     private Spinner stethoscopeSelector;
@@ -229,12 +233,11 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 /* Open an input stream, send the input buffer to the outputstream
                  *  recordFlag controls the while loop
                  */
-                String audioFileName =audioFilePath+"/temp.wav";
+                String audioFileName =audioFilePath+"/temp.bin";
                 writeToConsole("Save file: "+audioFileName);
                 stethoscope.startAudioInput();
                 stethoscope.startAudioOutput();
 
-//                recordFlag = true;
                 recordFlag =!recordFlag;
                 if (recordFlag){
                     recordstart = SystemClock.elapsedRealtime();
@@ -243,28 +246,40 @@ public class AndroidTextSample extends Activity implements OnClickListener {
 
                 try {
                     while(recordFlag){
-                        byte[] buffer = new byte[128];
+
                         int bytesreadcount = stethoscope.getAudioInputStream().read(buffer,0,buffer.length);
                         long currenttime = SystemClock.elapsedRealtime();
 
                         writeToConsole("Bytes read:"+Integer.toString(bytesreadcount));
-
+                        // Check if anything was received
                         if (bytesreadcount<=0){
                             Thread.sleep(100);
                             continue;
                         }
-                        stethoscope.getAudioOutputStream().write(buffer);
                         total = total +bytesreadcount; // Count total number of incoming bytes
-                        if (currenttime-recordstart>=maximum_recording_length){
+                        // Write to steth headphones
+                        stethoscope.getAudioOutputStream().write(buffer);
+                        // Append input buffer to heartsounddata
+                        for(int k=0;k<buffer.length;k++){
+                            heartsounddata[k+offset] = buffer[k];
+                        }
+                        offset += buffer.length;
+                        // Break if maximum recording length limit is broken
+                        if (currenttime-recordstart>=((long)(maximum_recording_length*1000))){
                             stethoscope.stopAudioInputAndOutput();
-                            writeToConsole("Recording performed for 20 seconds, Size: "
+                            writeToConsole("Recording performed for" +"seconds, Size: "
                                     +Integer.toString(total)+" bytes");
+                            offset=0;
+                            heartsounddata=new byte[maximum_recording_length*16*4000];
                             break;
                         }
-
                     }
+                    // If M button is pressed again all the input output streams will be closed.
+                    // The heartsounddata buffer and offset are reinitialized
                     if(!recordFlag){
                         stethoscope.stopAudioInputAndOutput();
+                        offset =0;
+                        heartsounddata=new byte[maximum_recording_length*16*4000];
 //                        writeToConsole("Recording performed for "+(SystemClock.elapsedRealtime()-recordstart)/1000);
                     }
 
