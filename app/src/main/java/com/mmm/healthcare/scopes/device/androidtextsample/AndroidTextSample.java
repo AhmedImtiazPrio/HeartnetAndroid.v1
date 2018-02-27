@@ -267,7 +267,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                         // Break if maximum recording length limit is broken
                         if (currenttime-recordstart>=((long)(maximum_recording_length*1000))){
                             stethoscope.stopAudioInputAndOutput();
-                            writeToConsole("Recording performed for" +"seconds, Size: "
+                            writeToConsole("Recording performed for "+maximum_recording_length+" seconds, Size: "
                                     +Integer.toString(total)+" bytes");
                             offset=0;
                             heartsounddata=new byte[maximum_recording_length*16*4000];
