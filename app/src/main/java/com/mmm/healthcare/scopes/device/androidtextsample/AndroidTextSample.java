@@ -41,7 +41,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
     private Stethoscope stethoscope;
     private boolean recordFlag = false; // Flag that controls recording with the press of M button
     private static String audioFilePath; // audioFilePath for saving .wav file
-    private int maximum_recording_length = 20; // Maximum recording length 20 seconds
+    private int maximum_recording_length = 4; // Maximum recording length 20 seconds
     private boolean isConnected = false;
     long recordstart;
     int total;
@@ -279,6 +279,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                             writeToConsole("Post complete");
                             writeToConsole("Response from server: " +http_response);
                             heartsounddata=new byte[maximum_recording_length*16*4000];
+                            recordFlag = false;
                             break;
                         }
                     }
@@ -471,18 +472,18 @@ public class AndroidTextSample extends Activity implements OnClickListener {
         }
     }
 
-    private String postdataserver(byte[] heartsounddata) throws IOException {
+    public String postdataserver(byte[] heartsounddata) throws IOException {
 
-        String url = "172.16.1.92:5000/predict";
-//        HttpPost httpPost = new HttpPost(url);
+        String api = "http://172.16.1.92:5000/predict";
+//        HttpPost httpPost = new HttpPost(api);
 //        httpPost.setEntity(new ByteArrayEntity(heartsounddata));
 //        HttpResponse response = HttpClient.execute(httpPost);
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
-                .url("172.16.1.92:5000/predict")
-                .post(RequestBody.create(MEDIA_TYPE_PLAINTEXT,url.getBytes()))
+                .url(api)
+                .post(RequestBody.create(MEDIA_TYPE_PLAINTEXT,heartsounddata))
                 .build();
-        writeToConsole("Post complete");
+//        writeToConsole("Post complete");
         Response response =null;
 
         try {
