@@ -116,5 +116,7 @@
     <orderEntry type="jdk" jdkName="Android API 10 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="__local_aars__:/media/taufiq/Data/heart_sound/Android/android console sample/app/libs/stethoscope-1.2.369.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.9.1@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.13.0@jar" level="project" />
   </component>
 </module>

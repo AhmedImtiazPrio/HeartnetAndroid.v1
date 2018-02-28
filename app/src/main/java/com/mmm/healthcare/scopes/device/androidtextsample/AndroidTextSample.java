@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.util.Vector;
 
 import android.app.Activity;
-import android.media.AudioFormat;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -23,13 +22,18 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
-
 import com.mmm.healthcare.scope.BitmapFactory;
 import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.Errors;
 import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.IStethoscopeListener;
 import com.mmm.healthcare.scope.Stethoscope;
+
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 public class AndroidTextSample extends Activity implements OnClickListener {
 
@@ -47,7 +51,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
     private TextView consoleView;
     private Button connectDisconnectButton;
     private Spinner stethoscopeSelector;
-
+    private static final MediaType MEDIA_TYPE_PLAINTEXT = MediaType
+            .parse("text/plain; charset=utf-8");
     private Handler handler = new Handler();
 
     /**
@@ -291,6 +296,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
 
             }
 
+
             @Override
             public void filterButtonDown(boolean isLongButtonClick) {
 
@@ -460,6 +466,27 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 consoleView.scrollTo(0, amountToScrollDown);
             }
         }
+    }
+
+    private String postdataserver(byte[] heartsounddata) throws IOException {
+
+        String url = "172.16.1.92:5000/predict";
+//        HttpPost httpPost = new HttpPost(url);
+//        httpPost.setEntity(new ByteArrayEntity(heartsounddata));
+//        HttpResponse response = HttpClient.execute(httpPost);
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder()
+                .url("172.16.1.92:5000/predict")
+                .post(RequestBody.create(MEDIA_TYPE_PLAINTEXT,heartsounddata))
+                .build();
+        Response response =null;
+        try {
+            response = client.newCall(request).execute();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return response.body().string();
+
     }
 
 }

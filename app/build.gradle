@@ -20,4 +20,6 @@ android {
 
 dependencies {
     compile files('libs/stethoscope-1.2.369.jar')
+//    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
 }
