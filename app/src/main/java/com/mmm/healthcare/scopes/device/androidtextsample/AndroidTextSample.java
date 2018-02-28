@@ -275,6 +275,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                             writeToConsole("Recording performed for "+maximum_recording_length+" seconds, Size: "
                                     +Integer.toString(total)+" bytes");
                             offset=0;
+                            String http_response = postdataserver(heartsounddata);
+                            writeToConsole("Response from server: " +http_response);
                             heartsounddata=new byte[maximum_recording_length*16*4000];
                             break;
                         }
