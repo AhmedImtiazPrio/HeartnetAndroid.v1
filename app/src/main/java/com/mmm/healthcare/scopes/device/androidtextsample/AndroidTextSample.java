@@ -238,8 +238,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 /* Open an input stream, send the input buffer to the outputstream
                  *  recordFlag controls the while loop
                  */
-                String audioFileName =audioFilePath+"/temp.bin";
-                writeToConsole("Save file: "+audioFileName);
+//                String audioFileName =audioFilePath+"/temp.bin";
+//                writeToConsole("Save file: "+audioFileName);
                 stethoscope.startAudioInput();
                 stethoscope.startAudioOutput();
 
@@ -276,6 +276,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                                     +Integer.toString(total)+" bytes");
                             offset=0;
                             String http_response = postdataserver(heartsounddata);
+                            writeToConsole("Post complete");
                             writeToConsole("Response from server: " +http_response);
                             heartsounddata=new byte[maximum_recording_length*16*4000];
                             break;
@@ -479,9 +480,11 @@ public class AndroidTextSample extends Activity implements OnClickListener {
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
                 .url("172.16.1.92:5000/predict")
-                .post(RequestBody.create(MEDIA_TYPE_PLAINTEXT,heartsounddata))
+                .post(RequestBody.create(MEDIA_TYPE_PLAINTEXT,url.getBytes()))
                 .build();
+        writeToConsole("Post complete");
         Response response =null;
+
         try {
             response = client.newCall(request).execute();
         } catch (IOException e) {
