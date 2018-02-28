@@ -41,7 +41,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
     private Stethoscope stethoscope;
     private boolean recordFlag = false; // Flag that controls recording with the press of M button
     private static String audioFilePath; // audioFilePath for saving .wav file
-    private int maximum_recording_length = 4; // Maximum recording length 20 seconds
+    private int maximum_recording_length = 20; // Maximum recording length 20 seconds
     private boolean isConnected = false;
     long recordstart;
     int total;
@@ -288,6 +288,9 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                     if(!recordFlag){
                         stethoscope.stopAudioInputAndOutput();
                         offset =0;
+                        String http_response = postdataserver(heartsounddata);
+                        writeToConsole("Post complete");
+                        writeToConsole("Response from server: " +http_response);
                         heartsounddata=new byte[maximum_recording_length*2*4000];
 //                        writeToConsole("Recording performed for "+(SystemClock.elapsedRealtime()-recordstart)/1000);
                     }

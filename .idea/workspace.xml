@@ -18,9 +18,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample$1.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
@@ -54,12 +52,12 @@
       <file leaf-file-name="AndroidTextSample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+            <state relative-caret-position="431">
+              <caret line="292" column="80" lean-forward="false" selection-start-line="292" selection-start-column="80" selection-end-line="292" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3516#3529#0" expanded="true" />
-                <marker date="1519820265584" expanded="true" signature="9219:9283" ph="..." />
+                <element signature="e#3517#3530#0" expanded="true" />
+                <marker date="1519820818535" expanded="true" signature="9220:9284" ph="..." />
               </folding>
             </state>
           </provider>
@@ -2022,7 +2020,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519820265647" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519824362021" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2069,7 +2067,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519820265647" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519824362022" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2251,7 +2249,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519820265656" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519824362025" />
       </method>
     </configuration>
     <list size="1">
@@ -2362,8 +2360,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3516#3529#0" expanded="true" />
-            <marker date="1519820265584" expanded="true" signature="9219:9283" ph="..." />
+            <element signature="e#3517#3530#0" expanded="true" />
+            <marker date="1519820818535" expanded="true" signature="9220:9284" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2393,8 +2391,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3516#3529#0" expanded="true" />
-            <marker date="1519820265584" expanded="true" signature="9219:9283" ph="..." />
+            <element signature="e#3517#3530#0" expanded="true" />
+            <marker date="1519820818535" expanded="true" signature="9220:9284" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2519,12 +2517,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        <state relative-caret-position="431">
+          <caret line="292" column="80" lean-forward="false" selection-start-line="292" selection-start-column="80" selection-end-line="292" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3516#3529#0" expanded="true" />
-            <marker date="1519820265584" expanded="true" signature="9219:9283" ph="..." />
+            <element signature="e#3517#3530#0" expanded="true" />
+            <marker date="1519820818535" expanded="true" signature="9220:9284" ph="..." />
           </folding>
         </state>
       </provider>
