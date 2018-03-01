@@ -276,8 +276,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                                     +Integer.toString(total)+" bytes");
                             offset=0;
                             String http_response = postdataserver(heartsounddata);
-                            writeToConsole("Post complete");
                             writeToConsole("Response from server: " +http_response);
+                            writeToConsole("Post complete");
                             heartsounddata=new byte[maximum_recording_length*2*4000];
                             recordFlag = false;
                             break;
@@ -288,9 +288,9 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                     if(!recordFlag){
                         stethoscope.stopAudioInputAndOutput();
                         offset =0;
-                        String http_response = postdataserver(heartsounddata);
-                        writeToConsole("Post complete");
-                        writeToConsole("Response from server: " +http_response);
+//                        String http_response = postdataserver(heartsounddata);
+//                        writeToConsole("Post complete");
+//                        writeToConsole("Response from server: " +http_response);
                         heartsounddata=new byte[maximum_recording_length*2*4000];
 //                        writeToConsole("Recording performed for "+(SystemClock.elapsedRealtime()-recordstart)/1000);
                     }
