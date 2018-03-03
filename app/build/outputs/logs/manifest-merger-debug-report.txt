@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/db0c60b035dacfa56bef2b6e5090665c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8f54d7c1efca31a0020cdca075ea6146/AndroidManifest.xml:17:1-22:12
@@ -18,9 +18,9 @@ MERGED from [com.android.support:support-core-ui:27.0.2] /home/taufiq/.gradle/ca
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4fd537bbec60a905ff8a6268da4b7cc8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/782141766ca10f81aec8b1408f02f259/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/taufiq/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8390f97ac50dc9b2dc80cf90200119e1/AndroidManifest.xml:17:1-24:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:3:7-67
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
@@ -100,7 +100,7 @@ ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src
 	android:name
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:22-64
 application
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:5-30:19
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:9:5-20
 	android:label
@@ -114,18 +114,20 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufi
 	android:icon
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:18-47
 activity#com.mmm.healthcare.scopes.device.androidtextsample.AndroidTextSample
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:20:9-27:20
 	android:label
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:21:19-51
+	android:theme
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:22:13-55
 	android:name
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:20:19-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:22:13-25:29
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:25:27-74

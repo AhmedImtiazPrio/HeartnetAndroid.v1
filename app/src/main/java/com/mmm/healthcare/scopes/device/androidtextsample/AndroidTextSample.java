@@ -30,6 +30,8 @@ import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.IStethoscopeListener;
 import com.mmm.healthcare.scope.Stethoscope;
 
+import org.w3c.dom.Text;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -51,6 +53,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
     int offset = 0;
     private TextView consoleView;
     private Button connectDisconnectButton;
+    private TextView output;
     private Spinner stethoscopeSelector;
     private ProgressBar progressBar;
     private static final MediaType MEDIA_TYPE_PLAINTEXT = MediaType
@@ -78,6 +81,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
         stethoscopeSelector = (Spinner) findViewById(R.id.stethoscope_spinner);
         connectDisconnectButton = (Button) findViewById(R.id.connect_disconnect_button);
         connectDisconnectButton.setOnClickListener(this);
+        output = (TextView) findViewById(R.id.output);
+        output.setText("App Initialized");
 
         try {
 

@@ -6,4 +6,5 @@
     <string name="console_label">Console Output:</string>
     <string name="m_button_prompt">Press M Button on the Stethoscope to record and send Audio</string>
     <string name="output">Pathology</string>
+    <string name="select">Select Stethoscope</string>
 </resources>
