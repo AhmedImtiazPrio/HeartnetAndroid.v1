@@ -1,1 +1,1 @@
-[{"outputType":{"type":"INSTANT_RUN_PACKAGED_RESOURCES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1},"path":"resources-debug.ir.ap_","properties":{"packageId":"com.mmm.healthcare.scopes.device.androidtextsample","split":"","minSdkVersion":"2"}}]
+[{"outputType":{"type":"INSTANT_RUN_PACKAGED_RESOURCES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1},"path":"resources-debug.ir.ap_","properties":{"packageId":"com.mmm.healthcare.scopes.device.androidtextsample","split":"","minSdkVersion":"21"}}]

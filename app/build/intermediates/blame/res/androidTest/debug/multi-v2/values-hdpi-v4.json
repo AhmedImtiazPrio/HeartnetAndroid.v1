@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/taufiq/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b9f0498aeb098ab854ce70c292f4481e/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

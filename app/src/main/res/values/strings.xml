@@ -4,4 +4,6 @@
     <string name="app_name">Heartnet v1 Beta</string>
     <string name="connect">Connect</string>
     <string name="console_label">Console Output:</string>
+    <string name="m_button_prompt">Press M Button on the Stethoscope to record and send Audio</string>
+    <string name="output">Pathology</string>
 </resources>

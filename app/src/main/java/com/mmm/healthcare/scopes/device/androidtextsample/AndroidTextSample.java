@@ -20,6 +20,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import com.mmm.healthcare.scope.BitmapFactory;
@@ -51,6 +52,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
     private TextView consoleView;
     private Button connectDisconnectButton;
     private Spinner stethoscopeSelector;
+    private ProgressBar progressBar;
     private static final MediaType MEDIA_TYPE_PLAINTEXT = MediaType
             .parse("text/plain; charset=utf-8");
     private Handler handler = new Handler();
@@ -71,7 +73,8 @@ public class AndroidTextSample extends Activity implements OnClickListener {
 
         consoleView = (TextView) findViewById(R.id.console_view);
         consoleView.setMovementMethod(new ScrollingMovementMethod());
-
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        progressBar.setVisibility(View.GONE);
         stethoscopeSelector = (Spinner) findViewById(R.id.stethoscope_spinner);
         connectDisconnectButton = (Button) findViewById(R.id.connect_disconnect_button);
         connectDisconnectButton.setOnClickListener(this);
@@ -247,6 +250,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                 if (recordFlag){
                     recordstart = SystemClock.elapsedRealtime();
                     total =0; // Initialized total number of bytes for incoming session to zero
+                    progressBar.setVisibility(View.VISIBLE);
                 }
 
                 try {
@@ -278,6 +282,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                             String http_response = postdataserver(heartsounddata);
                             writeToConsole("Response from server: " +http_response);
                             writeToConsole("Post complete");
+                            progressBar.setVisibility(View.GONE);
                             heartsounddata=new byte[maximum_recording_length*2*4000];
                             recordFlag = false;
                             break;
@@ -291,6 +296,7 @@ public class AndroidTextSample extends Activity implements OnClickListener {
 //                        String http_response = postdataserver(heartsounddata);
 //                        writeToConsole("Post complete");
 //                        writeToConsole("Response from server: " +http_response);
+                        progressBar.setVisibility(View.GONE);
                         heartsounddata=new byte[maximum_recording_length*2*4000];
 //                        writeToConsole("Recording performed for "+(SystemClock.elapsedRealtime()-recordstart)/1000);
                     }

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sat Mar 03 14:34:18 BDT 2018
+1.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/assets/debug
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/38
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=license.xml
+0.set=ASSET
+0.base=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=sample.bmp

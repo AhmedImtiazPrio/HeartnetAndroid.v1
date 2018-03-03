@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="spinner_text">#ff000000</color>
-	<color name="background">#ff000000</color>
+	<color name="background">#fcc45c</color>
 	<color name="console">#ff202020</color>
 </resources>

@@ -1,4 +1,4 @@
-#Tue Feb 20 13:31:29 BDT 2018
-base.0=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/8
+#Sat Mar 03 14:24:02 BDT 2018
+base.0=/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/dexMerger/debug/27
 path.0=classes.dex
 renamed.0=classes.dex

@@ -4,6 +4,20 @@ ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src
 INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/db0c60b035dacfa56bef2b6e5090665c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8f54d7c1efca31a0020cdca075ea6146/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b9f0498aeb098ab854ce70c292f4481e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/b81068cc4b245ee2d5351ef40cf1f1dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/43119d85f018d60f4f201f3d5ce93331/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d723a8183042d7072f3302c93a5ee0af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9f8ca59fd79a33a6e1f540de777bc70f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/e50c7f8943d79cd1d7aea98aa5c7bfea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/230280d8d3fba5e905bfe164c1d1e305/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/2a8a22db4f4a4841ba3860076ade2e9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4fd537bbec60a905ff8a6268da4b7cc8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/782141766ca10f81aec8b1408f02f259/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/taufiq/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8390f97ac50dc9b2dc80cf90200119e1/AndroidManifest.xml:17:1-24:12
 INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
@@ -22,17 +36,45 @@ INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-39
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-39
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-39
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-39
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-39
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-40
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-40
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-40
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/db0c60b035dacfa56bef2b6e5090665c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/db0c60b035dacfa56bef2b6e5090665c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8f54d7c1efca31a0020cdca075ea6146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8f54d7c1efca31a0020cdca075ea6146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b9f0498aeb098ab854ce70c292f4481e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b9f0498aeb098ab854ce70c292f4481e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/b81068cc4b245ee2d5351ef40cf1f1dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/b81068cc4b245ee2d5351ef40cf1f1dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/43119d85f018d60f4f201f3d5ce93331/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/43119d85f018d60f4f201f3d5ce93331/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d723a8183042d7072f3302c93a5ee0af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d723a8183042d7072f3302c93a5ee0af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9f8ca59fd79a33a6e1f540de777bc70f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9f8ca59fd79a33a6e1f540de777bc70f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/e50c7f8943d79cd1d7aea98aa5c7bfea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/e50c7f8943d79cd1d7aea98aa5c7bfea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/230280d8d3fba5e905bfe164c1d1e305/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/230280d8d3fba5e905bfe164c1d1e305/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/2a8a22db4f4a4841ba3860076ade2e9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/2a8a22db4f4a4841ba3860076ade2e9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4fd537bbec60a905ff8a6268da4b7cc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4fd537bbec60a905ff8a6268da4b7cc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/782141766ca10f81aec8b1408f02f259/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/782141766ca10f81aec8b1408f02f259/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/taufiq/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8390f97ac50dc9b2dc80cf90200119e1/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/taufiq/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8390f97ac50dc9b2dc80cf90200119e1/AndroidManifest.xml:20:5-22:41
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-40
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-40
 	android:targetSdkVersion
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-39
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:2-40
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:12-37
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:8:12-38
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
 supports-screens
@@ -59,12 +101,16 @@ ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:22-64
 application
 ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/taufiq/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/062503f7d109652a87a3b0d3e5aeef5c/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:48-80
+	android:debuggable
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:81-106
 	android:testOnly
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:131-155
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:157-181
 	android:permission
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:81-130
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:107-156
 	android:icon
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:18-47
 activity#com.mmm.healthcare.scopes.device.androidtextsample.AndroidTextSample

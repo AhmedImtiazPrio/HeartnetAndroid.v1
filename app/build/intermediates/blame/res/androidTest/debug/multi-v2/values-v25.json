@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/home/taufiq/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b9f0498aeb098ab854ce70c292f4481e/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

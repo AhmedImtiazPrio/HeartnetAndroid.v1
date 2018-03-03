@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/taufiq/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/db0c60b035dacfa56bef2b6e5090665c/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/home/taufiq/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b9f0498aeb098ab854ce70c292f4481e/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}
