@@ -61,12 +61,10 @@ application
 ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:5-30:19
 	android:label
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:48-80
-	android:debuggable
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:81-106
 	android:testOnly
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:157-181
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:131-155
 	android:permission
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:107-156
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:81-130
 	android:icon
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:18-47
 activity#com.mmm.healthcare.scopes.device.androidtextsample.AndroidTextSample

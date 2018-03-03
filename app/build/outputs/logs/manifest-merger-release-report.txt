@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:3:7-67
 		INJECTED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml
@@ -49,31 +49,37 @@ uses-permission#android.permission.BLUETOOTH
 ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:15:2-81
 	android:name
 		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:15:19-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:22-64
 application
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:5-28:19
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:5-30:19
 	android:label
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:48-80
-	android:debuggable
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:81-106
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:48-80
 	android:testOnly
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:157-181
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:131-155
 	android:permission
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:107-156
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:81-130
 	android:icon
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:17:18-47
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:18-47
 activity#com.mmm.healthcare.scopes.device.androidtextsample.AndroidTextSample
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:label
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:19:19-51
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:21:19-51
 	android:name
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:18:19-52
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:20:19-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:20:13-23:29
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /media/taufiq/Data/heart_sound/Android/android console sample/app/src/main/AndroidManifest.xml:24:27-74

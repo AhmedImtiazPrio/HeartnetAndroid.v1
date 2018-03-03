@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/media/taufiq/Data/heart_sound/Android/android console sample/app/libs/stethoscope-1.2.369.jar"
+        jumboMode="false"
+        min-sdk-version="2"
+        optimize="true"
+        revision="27.0.3"
+        sha1="addf4b010e1af8fa2b70874d2dd4a2fab5b34a33">
+        <dex dex="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/taufiq/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        min-sdk-version="2"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/taufiq/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/84b4b7d1c4a238e7899972b7446c250691e65f1f/okhttp-3.9.1.jar"
+        jumboMode="false"
+        min-sdk-version="2"
+        optimize="true"
+        revision="27.0.3"
+        sha1="84b4b7d1c4a238e7899972b7446c250691e65f1f">
+        <dex dex="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+
+</items>
