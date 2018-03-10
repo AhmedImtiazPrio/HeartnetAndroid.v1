@@ -19,7 +19,7 @@
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true" android:permission="android.permission.BLUETOOTH" android:testOnly="false">
         <activity android:name=".AndroidTextSample"
                   android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black">
+            android:theme="@style/Base.Theme.AppCompat.CompactMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

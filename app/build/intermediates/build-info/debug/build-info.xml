@@ -6,7 +6,7 @@
     density="tvdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1520072078007"
+    timestamp="1520074570208"
     token="9107984192639530549"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -23,9 +23,6 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
@@ -48,10 +45,10 @@
         location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
         location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -59,14 +56,14 @@
     <artifact
         location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
+    <artifact
+        location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1520072078007"
+        timestamp="1520074570208"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -89,10 +86,10 @@
             location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -100,6 +97,9 @@
         <artifact
             location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
+        <artifact
+            location="/media/taufiq/Data/heart_sound/Android/android console sample/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

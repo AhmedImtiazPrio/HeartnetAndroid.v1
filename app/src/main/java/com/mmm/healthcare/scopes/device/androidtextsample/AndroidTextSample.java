@@ -30,6 +30,7 @@ import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.IStethoscopeListener;
 import com.mmm.healthcare.scope.Stethoscope;
 
+import org.json.JSONObject;
 import org.w3c.dom.Text;
 
 import okhttp3.MediaType;
@@ -287,6 +288,11 @@ public class AndroidTextSample extends Activity implements OnClickListener {
                             String http_response = postdataserver(heartsounddata);
                             writeToConsole("Response from server: " +http_response);
                             writeToConsole("Post complete");
+//                            if (http_response)
+//                            if (http_response.contains(){
+//                                output.setText("Heart Sound is Abnormal"); // Dummy Text
+//                            }
+
                             progressBar.setVisibility(View.GONE);
                             heartsounddata=new byte[maximum_recording_length*2*4000];
                             recordFlag = false;
