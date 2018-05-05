@@ -10,6 +10,8 @@
 
 4. [Run the app](https://developer.android.com/training/basics/firstapp/running-app) with your smartphone/tablet connected to the computer. Alternatively you can [build an APK](https://developer.android.com/studio/run/).
 
+5. To run on a [HeartnetServer](https://github.com/AhmedImtiazPrio/heartnetServer) hosted on your local machine, change the IP address and port number in [this line](https://github.com/AhmedImtiazPrio/HeartnetAndroid.v1/blob/master/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java#L480) of the [AndroidTextSample.java](https://github.com/AhmedImtiazPrio/HeartnetAndroid.v1/blob/master/app/src/main/java/com/mmm/healthcare/scopes/device/androidtextsample/AndroidTextSample.java) file.
+
 ## Preview:
 
 ![App preview](https://github.com/AhmedImtiazPrio/HeartnetAndroid.v1/blob/master/appPreview.png)
