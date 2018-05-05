@@ -13,3 +13,5 @@
 ## Preview:
 
 ![App preview](https://github.com/AhmedImtiazPrio/HeartnetAndroid.v1/blob/master/appPreview.png)
+
+##### The app is still in development, check the 'Console Output' for debugging information
