@@ -10,4 +10,6 @@
 
 4. [Run the app](https://developer.android.com/training/basics/firstapp/running-app) with your smartphone/tablet connected to the computer. Alternatively you can [build an APK](https://developer.android.com/studio/run/).
 
+## Preview:
+
 ![App preview](https://github.com/AhmedImtiazPrio/HeartnetAndroid.v1/blob/master/appPreview.png)
