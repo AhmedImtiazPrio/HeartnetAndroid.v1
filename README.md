@@ -6,6 +6,6 @@
 
 2. git clone https://github.com/AhmedImtiazPrio/HeartnetAndroid.v1.git
 
-3. open HeartnetAndroid.v1 project in Android Studio
+3. Open HeartnetAndroid.v1 project in Android Studio
 
 4. [Run the app](https://developer.android.com/training/basics/firstapp/running-app) with your smartphone/tablet connected to the computer. Alternatively you can [build an APK](https://developer.android.com/studio/run/).
